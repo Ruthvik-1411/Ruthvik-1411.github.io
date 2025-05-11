@@ -2,92 +2,96 @@ export const projects = [
     {
       id: 1,
       title: "GenAI Projects",
-      description: "A collection of generative AI projects exploring text-to-image models, language processing, and creative applications of machine learning.",
-      categories: ["ai"],
-      technologies: ["PyTorch", "Transformers", "DALL-E", "HuggingFace"],
+      description: "A collection of generative AI projects exploring multimodal LLM models, document processing, and creative applications of Generative AI.",
+      categories: ["genai"],
+      technologies: ["Python", "Streamlit", "Mesop", "Gemini", "RAG", "LangChain", "LangGraph"],
       links: {
-        github: "https://github.com/ruthvik-1411/genai-projects",
-        demo: "https://youtu.be/example1"
+        github: "https://github.com/Ruthvik-1411/GenAI-Projects",
+        demo: "https://youtu.be/u_Gm_Hi7gV4"
       },
       icon: "robot"
     },
     {
       id: 2,
-      title: "Arduino FPV Setup",
-      description: "A DIY first-person-view camera system built with Arduino, enabling real-time video transmission for remote operation of devices and vehicles.",
-      categories: ["electronics", "robotics"],
-      technologies: ["Arduino", "C++", "RF Communication", "Electronics"],
-      links: {
-        github: "https://github.com/ruthvik/arduino-fpv-setup",
-        demo: "https://youtu.be/example2"
-      },
-      icon: "microchip"
-    },
-    {
-      id: 3,
       title: "Finance Tracker App",
-      description: "A comprehensive personal finance tracking application with AI-powered insights, budget recommendations, and spending pattern analysis.",
-      categories: ["ai"],
-      technologies: ["Python", "TensorFlow", "React Native", "Firebase"],
+      description: "A minimalistic personal finance tracking application with spending pattern analysis, investments tracking and acts as a electronic wallet.",
+      categories: ["apps"],
+      technologies: ["React Native", "Javascript", "Expo", "Appscript"],
       links: {
-        github: "https://github.com/ruthvik/finance-tracker"
+        github: "https://github.com/Ruthvik-1411/Finance_Tracker_app",
+        demo: "https://youtu.be/8o-5a1XjGV4"
       },
       icon: "chart-line"
     },
     {
-      id: 4,
-      title: "Open Data QnA",
-      description: "A natural language processing system that enables users to ask questions about public datasets and receive accurate, contextual answers.",
-      categories: ["nlp", "ai"],
-      technologies: ["NLP", "BERT", "Flask", "MongoDB"],
+      id: 3,
+      title: "SRpass Password Manager",
+      description: "A minimalitic, secure and convenient password manager for android to manage passwords accross different accounts.",
+      categories: ["apps"],
+      technologies: ["React Native", "Javascript", "Expo", "Appscript", "Cryptography"],
       links: {
-        github: "https://github.com/ruthvik/open-data-qna"
+        github: "https://github.com/Ruthvik-1411/SRpass",
+        demo: "https://youtu.be/O2BMTajYNWo"
       },
-      icon: "comment-dots"
+      icon: "key"
+    },
+    {
+      id: 4,
+      title: "XY Pen Plotter",
+      description: "A custom-built drawing machine that converts digital designs into physical artwork using a precision-controlled mechanical system.",
+      categories: ["electronics", "robotics"],
+      technologies: ["Arduino", "Stepper Motors", "G-code"],
+      links: {
+        github: "https://github.com/Ruthvik-1411/XY_Pen_Plotter",
+        demo: "https://youtu.be/HnFqBWPk73Q"
+      },
+      icon: "pen"
     },
     {
       id: 5,
       title: "Robotic Arm Projects",
-      description: "A series of robotic arm implementations with various control mechanisms including gesture recognition, programmable patterns, and autonomous operation.",
+      description: "Robotic arm implementations with various control mechanisms including programmable patterns and remote control to control 4-DOF Arm.",
       categories: ["robotics", "electronics"],
       technologies: ["Arduino", "Servo Motors", "Python", "Robotics"],
       links: {
-        github: "https://github.com/ruthvik/robotic-arm-projects",
-        demo: "https://youtu.be/example3"
+        github: "https://github.com/Ruthvik-1411/Robotic_Arm_Projects",
+        demo: "https://youtu.be/WAM7KDY48Zk"
       },
       icon: "hand-paper"
     },
     {
       id: 6,
       title: "OpenCV Projects",
-      description: "A collection of computer vision applications including object detection, facial recognition, gesture control interfaces, and augmented reality.",
-      categories: ["cv", "ai"],
-      technologies: ["OpenCV", "Python", "Computer Vision", "YOLO"],
+      description: "A collection of computer vision applications including object detection, facial recognition and face tracking.",
+      categories: ["cv"],
+      technologies: ["OpenCV", "Python", "Computer Vision"],
       links: {
-        github: "https://github.com/ruthvik/opencv-projects"
+        github: "https://github.com/Ruthvik-1411/Open_CV_Projects",
+        demo: "https://youtu.be/z-2_2DfBp2M"
       },
       icon: "eye"
     },
     {
       id: 7,
-      title: "XY Pen Plotter",
-      description: "A custom-built drawing machine that converts digital designs into physical artwork using a precision-controlled mechanical system.",
-      categories: ["electronics", "robotics"],
-      technologies: ["Arduino", "Stepper Motors", "CAD", "G-code"],
+      title: "Device Control using OpenCV",
+      description: "A computer vision application to manage electronic device in house.",
+      categories: ["cv", "electronics"],
+      technologies: ["OpenCV", "Python", "Computer Vision", "Arduino", "ESP32"],
       links: {
-        github: "https://github.com/ruthvik/xy-pen-plotter"
+        github: "https://github.com/Ruthvik-1411/Device_control_using_OpenCV",
+        demo: "https://youtu.be/rrYz_PNi9wM"
       },
-      icon: "pen"
+      icon: "eye"
     },
     {
       id: 8,
       title: "Automated Conveyor Belt Checkout",
       description: "An automated system using computer vision to identify and track items on a conveyor belt, facilitating a streamlined checkout process.",
-      categories: ["cv", "robotics"],
-      technologies: ["OpenCV", "Python", "Arduino", "Machine Learning"],
+      categories: ["cv", "electronics"],
+      technologies: ["OpenCV", "Python", "Arduino"],
       links: {
-        github: "https://github.com/ruthvik/conveyor-belt-checkout",
-        demo: "https://youtu.be/example4"
+        github: "https://github.com/Ruthvik-1411/Automated_Conveyerbelt_Checkout",
+        demo: "https://youtu.be/lck1uOHtO9k"
       },
       icon: "barcode"
     },
@@ -95,95 +99,73 @@ export const projects = [
       id: 9,
       title: "Smart Agriculture Model",
       description: "An IoT-based system for monitoring and automatically managing agricultural environments, including soil moisture, temperature, and irrigation control.",
-      categories: ["electronics", "ai"],
-      technologies: ["ESP32", "Sensors", "Cloud", "Data Analytics"],
+      categories: ["electronics"],
+      technologies: ["ESP32", "Sensors", "Arduino", "ThingSpeak", "Webhooks"],
       links: {
-        github: "https://github.com/ruthvik/smart-agriculture"
+        github: "https://github.com/Ruthvik-1411/IoT_Based_Smart_Agriculture_Model",
+        demo: "https://youtu.be/6Th6-AA5KNU"
       },
       icon: "seedling"
     },
-    {
-      id: 10,
-      title: "Hand Gesture Controlled PC",
-      description: "A system that allows users to control their computer using hand gestures captured by a camera, offering an innovative way to interact with technology.",
-      categories: ["cv", "ai"],
-      technologies: ["Python", "OpenCV", "Machine Learning", "MediaPipe"],
-      links: {
-        github: "https://github.com/ruthvik/gesture-control"
-      },
-      icon: "hand-paper"
-    },
-    {
-      id: 11,
-      title: "SRpass Password Manager",
-      description: "A secure password manager with encryption and cross-platform synchronization, helping users maintain strong, unique passwords across their accounts.",
-      categories: ["ai", "nlp"],
-      technologies: ["Python", "Cryptography", "Flask", "React"],
-      links: {
-        github: "https://github.com/ruthvik/srpass"
-      },
-      icon: "key"
-    }
   ];
   
 export const skillCategories = [
-    {
-      title: "Programming & Machine Learning",
-      skills: [
-        { name: "Python" },
-        { name: "TensorFlow" },
-        { name: "PyTorch" },
-        { name: "Natural Language Processing" },
-        { name: "Computer Vision" },
-        { name: "JavaScript" },
-        { name: "C/C++" },
-        { name: "BERT" },
-        { name: "Transformers" },
-        { name: "Scikit-learn" },
-        { name: "Pandas" },
-        { name: "NumPy" }
-      ]
-    },
-    {
-      title: "Web Development",
-      skills: [
-        { name: "React Native" },
-        { name: "AppScript" },
-        { name: "Flask" },
-        { name: "Django" },
-        { name: "HTML/CSS" },
-        { name: "RESTful APIs" },
-        { name: "MongoDB" },
-        { name: "Firebase" }
-      ]
-    },
-    {
-      title: "IoT & Robotics",
-      skills: [
-        { name: "Arduino" },
-        { name: "Raspberry Pi" },
-        { name: "NRF24L01/RF" },
-        { name: "MPU6050/Sensors" },
-        { name: "Embedded Systems" },
-        { name: "Servo Motors" },
-        { name: "PID Controllers" },
-        { name: "PCB Design" },
-        { name: "Microcontrollers" },
-        { name: "Electronics" }
-      ]
-    },
-    {
-      title: "Cloud & Tools",
-      skills: [
-        { name: "Google Cloud" },
-        { name: "Git/GitHub" },
-        { name: "Docker" },
-        { name: "CI/CD" },
-        { name: "Linux" },
-        { name: "Shell Scripting" },
-        { name: "AWS" },
-        { name: "Kubernetes" }
-      ]
-    }
-  ];
-  
+  {
+    title: "Machine Learning & AI",
+    skills: [
+      { name: "Generative AI" },
+      { name: "RAG" },
+      { name: "Agents" },
+      { name: "Prompt Engineering" },
+      { name: "NLP" },
+      { name: "Computer Vision" },
+      { name: "Machine Learning" },
+      { name: "Deep Learning"},
+      { name: "TensorFlow" },
+      { name: "Pandas" },
+      { name: "NumPy" },
+      { name: "Matplotlib" },
+    ]
+  },
+  {
+    title: "Development",
+    skills: [
+      { name: "Python" },
+      { name: "JavaScript" },
+      { name: "SQL" },
+      { name: "React Native" },
+      { name: "HTML/CSS" },
+      { name: "FastAPI" },
+      { name: "AppScript" },
+    ]
+  },
+  {
+    title: "Tools & Technologies",
+    skills: [
+      { name: "Git/GitHub" },
+      { name: "Docker" },
+      { name: "Linux" },
+      { name: "PostgreSQL" },
+      { name: "Firebase" },
+      { name: "Streamlit" },
+      { name: "Mesop" },
+      { name: "Behave" },
+      { name: "Google Cloud Platform" },
+      { name: "Dialogflow CX"}
+    ]
+  },
+  {
+    title: "Certifications",
+    skills: [
+      { name: "Associate Cloud Engineer (Google Cloud)" },
+      { name: "Professional ML Engineer (Google Cloud)" }
+    ]
+  },
+  {
+    title: "IoT & Hardware",
+    skills: [
+      { name: "Arduino" },
+      { name: "Raspberry Pi"}
+    ]
+  }
+];
