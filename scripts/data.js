@@ -115,12 +115,12 @@ export const skillCategories = [
     skills: [
       { name: "Generative AI" },
       { name: "RAG" },
-      { name: "Agents" },
+      { name: "AI Agents" },
       { name: "Prompt Engineering" },
       { name: "NLP" },
       { name: "Computer Vision" },
       { name: "Machine Learning" },
-      { name: "Deep Learning"},
+      { name: "Deep Learning" },
       { name: "TensorFlow" },
       { name: "Pandas" },
       { name: "NumPy" },
@@ -128,30 +128,31 @@ export const skillCategories = [
     ]
   },
   {
-    title: "Development",
+    title: "Software Development & Frameworks",
     skills: [
       { name: "Python" },
       { name: "JavaScript" },
       { name: "SQL" },
-      { name: "React Native" },
       { name: "HTML/CSS" },
+      { name: "React Native" },
       { name: "FastAPI" },
-      { name: "AppScript" },
+      { name: "Streamlit" },
+      { name: "Mesop" },
+      { name: "Google Apps Script" },
+      { name: "Behave (BDD Testing)" },
+      { name: "LangGraph"}
     ]
   },
   {
-    title: "Tools & Technologies",
+    title: "Cloud, Databases & DevOps",
     skills: [
+      { name: "Google Cloud Platform (GCP)" },
+      { name: "Dialogflow CX" },
+      { name: "PostgreSQL" },
+      { name: "Firebase" },
       { name: "Git/GitHub" },
       { name: "Docker" },
       { name: "Linux" },
-      { name: "PostgreSQL" },
-      { name: "Firebase" },
-      { name: "Streamlit" },
-      { name: "Mesop" },
-      { name: "Behave" },
-      { name: "Google Cloud Platform" },
-      { name: "Dialogflow CX"}
     ]
   },
   {
@@ -165,7 +166,9 @@ export const skillCategories = [
     title: "IoT & Hardware",
     skills: [
       { name: "Arduino" },
-      { name: "Raspberry Pi"}
+      { name: "Raspberry Pi" },
+      { name: "MPU6050" },
+      { name: "Other sensors"}
     ]
   }
 ];

@@ -796,23 +796,14 @@
     opacity: 1;
     transform: translateY(0);
   }
-  
-  /* .animate-spin {
-    animation: spin 1s linear infinite;
-  }
-  
-  @keyframes spin {
-    to {
-      transform: rotate(360deg);
-    }
-  } */
+
   .animate-spin {
-    animation: spin 1s linear infinite;
+    animation: spin 3s linear infinite;
   }
   
   @keyframes spin {
     from {
-      transform: rotate(0deg); /* Add the starting rotation */
+      transform: rotate(0deg);
     }
     to {
       transform: rotate(360deg);
