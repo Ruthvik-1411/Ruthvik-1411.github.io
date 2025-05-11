@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="description" content="Ruthvik - Machine Learning Engineer specializing in Robotics, IoT, and Machine Learning with expertise in electronics and tinkering." />
+    <meta property="og:title" content="Ruthvik | Machine Learning Engineer" />
+    <meta property="og:description" content="Personal portfolio showcasing ML, Robotics, and IoT projects." />
+    <meta property="og:type" content="website" />
+    <title>Ruthvik | Machine Learning Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <header id="header" class="fixed top-0 w-full z-50 bg-primary bg-opacity-90 backdrop-blur-sm shadow-md transition-all duration-300 py-4">
+      <nav class="container mx-auto px-6 flex items-center justify-between">
+        <div class="text-accent font-mono text-xl font-bold relative overflow-hidden">
+          <a href="#" class="hover:text-accent/75 transition-colors" style="text-decoration: none; color: currentColor;">
+            &lt;Ruthvik/&gt;
+          </a>
+        </div>
+
+        <div class="hidden md:flex space-x-8 items-center">
+          <a href="#about" class="nav-link" data-nav-link="about" style="text-decoration: none;">
+            <span class="text-accent">01.</span> About
+          </a>
+          <a href="#projects" class="nav-link" data-nav-link="projects" style="text-decoration: none;">
+            <span class="text-accent">02.</span> Projects
+          </a>
+          <a href="#skills" class="nav-link" data-nav-link="skills" style="text-decoration: none;">
+            <span class="text-accent">03.</span> Skills
+          </a>
+          <a href="#contact" class="nav-link" data-nav-link="contact" style="text-decoration: none;">
+            <span class="text-accent">04.</span> Connect
+          </a>
+          <a href="https://github.com/ruthvik-1411" target="_blank" rel="noopener noreferrer" class="btn-primary text-sm">
+            GitHub
+          </a>
+        </div>
+
+        <button
+          class="md:hidden text-text hover:text-accent focus:outline-none"
+          id="mobile-menu-button"
+          aria-label="Toggle menu"
+        >
+          <i class="fas fa-bars h-6 w-6"></i>
+        </button>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="md:hidden hidden flex flex-col p-6 bg-secondary space-y-4">
+        <a href="#about" class="nav-link text-lg py-2" data-nav-link="about" data-mobile-link>
+          <span class="text-accent"></span> About
+        </a>
+        <a href="#projects" class="nav-link text-lg py-2" data-nav-link="projects" data-mobile-link>
+          <span class="text-accent"></span> Projects
+        </a>
+        <a href="#skills" class="nav-link text-lg py-2" data-nav-link="skills" data-mobile-link>
+          <span class="text-accent"></span> Skills
+        </a>
+        <a href="#contact" class="nav-link text-lg py-2" data-nav-link="contact" data-mobile-link>
+          <span class="text-accent"></span> Connect
+        </a>
+        <a
+          href="https://github.com/ruthvik-1411"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-primary text-center mt-2"
+        >
+          GitHub
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="min-h-screen flex items-center justify-center blueprint-bg pt-20 pb-10 px-6" id="home">
+        <div class="container mx-auto">
+          <div class="max-w-3xl mx-auto">
+            <p class="text-accent font-mono mb-5 text-lg hero-item" style="transition-delay: 300ms">
+              Hi, I'm
+            </p>
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-4 font-mono hero-item" style="transition-delay: 400ms">
+              Ruthvik.
+            </h1>
+            <h2 class="text-4xl md:text-6xl font-bold text-muted mb-6 hero-item" style="transition-delay: 500ms">
+              I build intelligent machines.
+            </h2>
+            <p class="text-xl text-muted max-w-xl mb-8 hero-item" style="transition-delay: 600ms">
+              I'm a machine learning engineer specializing in robotics, IoT, and artificial intelligence. 
+              My passion lies in creating intelligent systems that can perceive, learn, and interact with the world.
+            </p>
+            <div class="hero-item" style="transition-delay: 700ms">
+              <a href="#projects" class="btn-primary px-6 py-3 text-base">
+                Explore My Projects
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="py-20 px-6 bg-primary relative opacity-0 translate-y-10 section-hidden">
+        <!-- Circuit pattern background -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
+          <div class="circuit-pattern w-full h-full"></div>
+        </div>
+
+        <div class="container mx-auto relative z-10">
+          <div class="flex items-center mb-12">
+            <h2 class="section-heading">
+              <span class="text-accent">01.</span> About Me
+            </h2>
+          </div>
+
+          <div class="grid md:grid-cols-5 gap-12 items-center">
+            <div class="md:col-span-3 space-y-4">
+              <p class="text-muted">
+                Hello! I'm Ruthvik, a Machine Learning Engineer at Quantiphi
+                Analytics with a passion for building intelligent systems. I
+                graduated with a Bachelor's degree in Electrical and Electronics
+                from NIT Calicut, where I developed a strong foundation in
+                electronics and systems engineering.
+              </p>
+              <p class="text-muted">
+                My core interests lie at the intersection of Robotics, Internet of
+                Things (IoT), and Machine Learning. I enjoy tinkering with
+                electronics and building projects that bridge the digital and
+                physical worlds. Whether it's creating computer vision
+                applications or programming microcontrollers, I'm constantly
+                exploring ways to push the boundaries of what's possible.
+              </p>
+              <p class="text-muted">
+                Outside of my professional work, I enjoy developing personal
+                projects that challenge me to learn new technologies and
+                techniques. My approach combines theoretical knowledge with
+                practical implementation, always with an eye toward creating
+                solutions that solve real-world problems.
+              </p>
+            </div>
+
+            <div class="md:col-span-2 relative hover-container mx-auto md:ml-auto">
+              <div class="bg-accent absolute inset-0 rounded-md opacity-20 hover-bg transition-all duration-300 transform translate-0"></div>
+              <div class="relative z-10 overflow-hidden rounded-md border-2 border-accent">
+                <div class="w-full h-[360px] md:h-[300px] bg-secondary flex items-center justify-center">
+                  <div class="w-16 h-16 border-2 border-accent rounded-full animate-spin"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="py-20 px-6 bg-primary blueprint-bg opacity-0 translate-y-10 section-hidden">
+        <div class="container mx-auto">
+          <div class="flex items-center mb-12">
+            <h2 class="section-heading">
+              <span class="text-accent">02.</span> Projects
+            </h2>
+          </div>
+          
+          <!-- Project Filters -->
+          <div class="flex flex-wrap justify-center mb-12 gap-2" id="project-filters">
+            <button 
+              class="px-4 py-2 rounded text-sm font-mono transition-colors filter-btn active"
+              data-filter="all"
+            >
+              All
+            </button>
+            <button 
+              class="px-4 py-2 rounded text-sm font-mono transition-colors filter-btn"
+              data-filter="nlp"
+            >
+              NLP
+            </button>
+            <button 
+              class="px-4 py-2 rounded text-sm font-mono transition-colors filter-btn"
+              data-filter="ai"
+            >
+              AI
+            </button>
+            <button 
+              class="px-4 py-2 rounded text-sm font-mono transition-colors filter-btn"
+              data-filter="cv"
+            >
+              Computer Vision
+            </button>
+            <button 
+              class="px-4 py-2 rounded text-sm font-mono transition-colors filter-btn"
+              data-filter="robotics"
+            >
+              Robotics
+            </button>
+            <button 
+              class="px-4 py-2 rounded text-sm font-mono transition-colors filter-btn"
+              data-filter="electronics"
+            >
+              Electronics
+            </button>
+          </div>
+          
+          <!-- Projects Container -->
+          <div id="projects-container" class="max-h-[800px] overflow-y-auto pr-2 custom-scrollbar">
+            <div class="flex flex-col space-y-6" id="projects-list">
+              <!-- Projects will be dynamically added here via JavaScript -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="py-20 px-6 bg-primary relative opacity-0 translate-y-10 section-hidden">
+        <!-- Blueprint pattern background -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
+          <div class="circuit-pattern w-full h-full"></div>
+        </div>
+
+        <div class="container mx-auto relative z-10">
+          <div class="flex items-center mb-12">
+            <h2 class="section-heading">
+              <span class="text-accent">03.</span> Skills
+            </h2>
+          </div>
+
+          <div class="flex flex-col space-y-8" id="skills-container">
+            <!-- Skills will be dynamically added here via JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="py-20 px-6 bg-primary opacity-0 translate-y-10 section-hidden">
+        <div class="container mx-auto w-full text-center">
+          <div class="flex items-center mb-12">
+            <h2 class="section-heading">
+              <span class="text-accent">04.</span> Connect
+            </h2>
+          </div>
+          
+          <div class="bg-secondary rounded-lg p-8 shadow-lg hover:shadow-[0_10px_30px_-15px_rgba(2,12,27,0.7)] transition-all duration-300 mx-auto">
+            <p class="text-muted mb-8 text-lg">
+              Thanks for stopping by! I'm always interested in connecting with fellow tech enthusiasts, potential collaborators, 
+              or anyone interested in my work.
+            </p>
+
+            <div class="grid grid-cols-4 md:grid-cols-4 gap-6 mb-8">
+              <a
+                href="mailto:nagasairuthvik1919@gmail.com"
+                class="flex flex-col items-center gap-2 text-light-text hover:text-accent group transition-colors"
+                aria-label="Email"
+                style="text-decoration: none; color: currentColor;"
+              >
+                <div class="w-12 h-12 rounded-full bg-accent-bg flex items-center justify-center group-hover:bg-accent-bg-hover transition-colors">
+                  <i class="fas fa-envelope text-accent text-xl"></i>
+                </div>
+                <span class="font-mono text-sm">Email</span>
+              </a>
+              
+              <a
+                href="https://github.com/ruthvik-1411"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex flex-col items-center gap-2 text-light-text hover:text-accent group transition-colors"
+                aria-label="GitHub profile"
+                style="text-decoration: none; color: currentColor;"
+              >
+                <div class="w-12 h-12 rounded-full bg-accent-bg flex items-center justify-center group-hover:bg-accent-bg-hover transition-colors">
+                  <i class="fab fa-github text-accent text-xl"></i>
+                </div>
+                <span class="font-mono text-sm">GitHub</span>
+              </a>
+              
+              <a
+                href="https://www.linkedin.com/in/knsruthvik"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex flex-col items-center gap-2 text-light-text hover:text-accent group transition-colors"
+                aria-label="LinkedIn profile"
+                style="text-decoration: none; color: currentColor;"
+              >
+                <div class="w-12 h-12 rounded-full bg-accent-bg flex items-center justify-center group-hover:bg-accent-bg-hover transition-colors">
+                  <i class="fab fa-linkedin-in text-accent text-xl"></i>
+                </div>
+                <span class="font-mono text-sm">LinkedIn</span>
+              </a>
+              
+              <a
+                href="https://youtube.com/@sairuthvik7727"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex flex-col items-center gap-2 text-light-text hover:text-accent group transition-colors"
+                aria-label="Youtube channel"
+                style="text-decoration: none; color: currentColor;"
+              >
+                <div class="w-12 h-12 rounded-full bg-accent-bg flex items-center justify-center group-hover:bg-accent-bg-hover transition-colors">
+                  <i class="fab fa-youtube text-accent text-xl"></i>
+                </div>
+                <span class="font-mono text-sm">Youtube</span>
+              </a>
+            </div>
+            
+            <p class="text-muted text-sm italic">
+              Open to discussions about machine learning, robotics, IoT, or just to say hi!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-6 text-center text-muted text-sm font-mono bg-primary">
+      <div class="container mx-auto">
+        <p>Designed & Built by Replit for Ruthvik</p>
+        <p class="mt-2">© <span id="currentYear"></span> All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="scripts/main.js" type="module"></script>
+  </body>
+</html>
