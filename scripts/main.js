@@ -191,6 +191,15 @@
       // Set icon based on project type
       let iconHtml = '';
       switch(project.icon) {
+        case 'headset':
+          iconHtml = '<i class="fas fa-headset text-accent"></i>';
+          break;
+        case 'wand-magic-sparkles':
+          iconHtml = '<i class="fas fa-wand-magic-sparkles text-accent"></i>';
+          break;
+        case 'comments':
+          iconHtml = '<i class="fas fa-comments text-accent"></i>';
+          break;
         case 'robot':
           iconHtml = '<i class="fas fa-robot text-accent"></i>';
           break;
