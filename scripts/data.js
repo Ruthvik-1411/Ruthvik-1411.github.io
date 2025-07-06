@@ -30,7 +30,7 @@ export const projects = [
       categories: ["genai"],
       technologies: ["Python", "Mesop", "Gemini", "RAG", "LangChain", "LangGraph"],
       links: {
-        github: "https://github.com/Ruthvik-1411/GenAI-Projects/simple_rag_bot",
+        github: "https://github.com/Ruthvik-1411/GenAI-Projects/tree/main/simple_rag_bot",
         demo: "https://youtu.be/u_Gm_Hi7gV4"
       },
       icon: "comments"
