@@ -1,13 +1,13 @@
 export const projects = [
     {
       id: 1,
-      title: "Gemini Multimodal Live Application",
+      title: "Gemini Multimodal Live Boiler Plate",
       description: "A minimal client-server setup for real-time audio streaming with Gemini Live. The client handles audio capture/playback, while the Quart-based server manages audio processing and API communication via websockets.",
       categories: ["genai"],
       technologies: ["Python", "Gemini 2.0 Live", "Quart", "Websockets", "HTML/CSS/JS"],
       links: {
         github: "https://github.com/Ruthvik-1411/GenAI-Projects/tree/main/gemini_live_boilerplate#gemini-live-boilerplate",
-        demo: "https://github.com/Ruthvik-1411/GenAI-Projects/blob/main/gemini_live_boilerplate/assets/sample_ui.png"
+        demo: "https://github.com/Ruthvik-1411/GenAI-Projects/blob/main/gemini_live_boilerplate/assets/gemini_live_ui.png"
       },
       icon: "headset"
     },
@@ -30,7 +30,7 @@ export const projects = [
       categories: ["genai"],
       technologies: ["Python", "Mesop", "Gemini", "RAG", "LangChain", "LangGraph"],
       links: {
-        github: "https://github.com/Ruthvik-1411/GenAI-Projects",
+        github: "https://github.com/Ruthvik-1411/GenAI-Projects/simple_rag_bot",
         demo: "https://youtu.be/u_Gm_Hi7gV4"
       },
       icon: "comments"
