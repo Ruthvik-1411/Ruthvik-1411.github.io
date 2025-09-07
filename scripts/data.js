@@ -1,6 +1,18 @@
 export const projects = [
     {
       id: 1,
+      title: "Memsrv",
+      description: "A lightweight, self-hosted memory service boilerplate for LLMs and agent frameworks. It extracts and stores key facts from conversations, enabling semantic retrieval using vector embeddings and making user interactions more personalized. Designed to be modular, it supports multiple vector databases and exposes a REST API for easy integration.",
+      categories: ["genai"],
+      technologies: ["Python", "FastAPI", "GenAI", "RAG", "Agents", "Google ADK", "LangGraph", "Gemini", "ChromaDB", "PostgreSQL"],
+      links: {
+        github: "https://github.com/Ruthvik-1411/memsrv",
+        demo: "https://github.com/Ruthvik-1411/memsrv?tab=readme-ov-file#memsrv"
+      },
+      icon: "database"
+    },
+    {
+      id: 1,
       title: "Gemini Multimodal Live Boiler Plate",
       description: "A minimal client-server setup for real-time audio streaming with Gemini Live. The client handles audio capture/playback, while the Quart-based server manages audio processing and API communication via websockets.",
       categories: ["genai"],
