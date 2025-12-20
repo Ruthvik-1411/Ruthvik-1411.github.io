@@ -5,5 +5,5 @@ import { plugin } from 'postcss';
 
 export default defineConfig({
   plugins: [react()],
-  base: "/ruthvik-1411.github.io"
+  base: "/"
 });
