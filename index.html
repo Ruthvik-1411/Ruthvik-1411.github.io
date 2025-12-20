@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruthvik | AI Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="/ruthvik-1411.github.io/assets/atom_icon_nobg-CUvDyctQ.png" type="image/png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                dark: '#0A192F',
+                light: '#F8FAFC'
+              },
+              secondary: {
+                dark: '#112240',
+                light: '#F1F5F9'
+              },
+              accent: {
+                DEFAULT: '#64FFDA',
+                dark: '#64FFDA',
+                light: '#0D9488'
+              },
+              muted: {
+                dark: '#8892B0',
+                light: '#64748B'
+              },
+              text: {
+                dark: '#CCD6F6',
+                light: '#1E293B'
+              }
+            },
+            fontFamily: {
+              mono: ['Open Sans', 'monospace'],
+              sans: ['Roboto Mono', 'sans-serif']
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      .circuit-pattern {
+        mask-image: linear-gradient(to bottom, transparent, black, transparent);
+      }
+      .glass-card {
+        backdrop-filter: blur(12px);
+        background-color: rgba(17, 34, 64, 0.7);
+      }
+      .light .glass-card {
+        background-color: rgba(241, 245, 249, 0.7);
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #233554;
+        border-radius: 4px;
+      }
+      .light ::-webkit-scrollbar-thumb {
+        background: #CBD5E1;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #64FFDA;
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+      .animate-float {
+        animation: float 6s ease-in-out infinite;
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/ruthvik-1411.github.io/assets/index-Dq3cjY0r.js"></script>
+</head>
+<body class="bg-primary-light dark:bg-primary-dark text-text-light dark:text-text-dark font-sans selection:bg-accent/30">
+    <div id="root"></div>
+</body>
+</html>
