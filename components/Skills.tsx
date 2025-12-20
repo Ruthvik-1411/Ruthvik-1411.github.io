@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { SKILL_CATEGORIES } from '../constants';
 

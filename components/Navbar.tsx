@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Sun, Moon, Menu, X, Github } from 'lucide-react';
 import { Theme } from '../types';

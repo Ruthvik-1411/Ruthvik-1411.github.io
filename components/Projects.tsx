@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { ExternalLink, Github, Youtube } from 'lucide-react';
+import { Github, Youtube } from 'lucide-react';
 import { PROJECTS, getIcon } from '../constants';
 
 const Projects: React.FC = () => {
